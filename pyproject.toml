@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "recoverx"
+version = "1.0.0"
+description = "Scan Android Gallery cache data and carve JPEG and PNG image candidates."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+[tool.setuptools]
+packages = ["recoverx"]

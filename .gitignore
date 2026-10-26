@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# Recovered images and device data
+GalleryRecovery/
+extracted/
+recovered/
+phone-backups/
+backups/
+imgcache.0
+screennailcache.0
+*.cache
+*.bak
+*.backup
+
+# Credentials and local configuration
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.*
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
